@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-sdk
+        tools:overrideLibrary="androidx.activity,androidx.activity.compose,androidx.annotation,androidx.compose.animation,androidx.compose.foundation,androidx.compose.foundation.layout,androidx.compose.material,androidx.compose.material.icons.extended,androidx.compose.material3,androidx.compose.runtime,androidx.compose.ui,androidx.compose.ui.tooling,androidx.compose.ui.tooling.preview,androidx.compose.ui.unit,androidx.core,androidx.core.ktx,androidx.navigation,androidx.navigation.compose,androidx.profileinstaller,com.google.accompanist.navigation.animation,com.google.accompanist.pager,com.google.accompanist.swiperefresh,androidx.customview.poolingcontainer"
+        android:minSdkVersion="16" />
+
     <uses-permission
         android:name="android.permission.QUERY_ALL_PACKAGES"
         tools:ignore="QueryAllPackagesPermission" />
